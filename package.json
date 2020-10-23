@@ -26,7 +26,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/solick/node-red-contrib-netgear.git"
     }
   ],
   "maintainers": [
