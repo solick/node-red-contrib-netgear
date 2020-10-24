@@ -12,13 +12,20 @@ TBD
 
 ## Quickstart
 
-TBD
+Just create a simple flow:
+1. Add a get all devices node, an inject node and a debug node.
+2. connect them as shown in the picture:
 
+![example flow](doc/img/example-flow1.png)
+
+3. create a new config node and enter your admin password and the ip of your netgear router
+4. deploy and inject.
+
+--> after ~10 seconds you should see an array of objects in the debug windoe.
 
 ## List of functions
 
-TBD
-
+* get all devices - fetch a list of all attached devices and return an array.
 
 ## Credits
 

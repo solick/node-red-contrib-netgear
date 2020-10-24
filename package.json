@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-netgear",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Interface to Netgear router api",
   "main": "netgear",
   "scripts": {
@@ -16,8 +16,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "netgear": "^4.2.0"
+    "netgear": "^4.2.0",
+    "underscore": "^1.11.0"
   },
+  "keywords": [ "node-red" ],
   "node-red": {
     "nodes": {
       "Netgear-all-Devices": "netgear.js"
